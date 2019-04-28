@@ -1,0 +1,22 @@
+<head>
+    <title>The Canvas</title>
+    <style>
+        #cc {
+            border: 1px solid rgba(129, 73, 6, 1.0);
+        }
+        #controls {
+            padding: 10px;
+        }
+    </style>
+    <script src="grid.js"></script>
+    <script src="gridGui.js"></script>
+    <script src="mazeCreator.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body onload="initCanvas();initMaze();initEventListeners();">
+    <section id="controls">
+        <button id="btnStart">Start</button>
+    </section>
+    <canvas id="cc" height="300" width="300"></canvas>
+</body>
+
